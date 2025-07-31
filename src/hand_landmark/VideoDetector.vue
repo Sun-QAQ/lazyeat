@@ -43,6 +43,29 @@
       ></canvas>
     </div>
 
+    <n-popover trigger="hover" placement="bottom">
+      <template #trigger>
+        <n-button text circle type="info">
+          <n-icon size="24">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+                fill="currentColor"
+              />
+            </svg>
+          </n-icon>
+        </n-button>
+      </template>
+
+      <div class="tooltip-content">
+        <p><strong>识别框的位置决定了光标的移动范围：</strong></p>
+        <ul>
+          <li>识别框x和y：决定识别框的左上角位置</li>
+          <li>当手势在识别框内移动时，光标会跟随手势在屏幕上移动</li>
+        </ul>
+      </div>
+    </n-popover>
+
     <n-space>
       <n-form-item label="识别框x">
         <n-input-number
@@ -86,6 +109,7 @@
 <script setup>
 import { Detector } from "@/hand_landmark/detector";
 import { use_app_store } from "@/store/app";
+import { NButton, NIcon, NPopover } from "naive-ui";
 import { onBeforeUnmount, onMounted, ref, watch } from "vue";
 
 // 常量定义
@@ -260,5 +284,19 @@ onBeforeUnmount(() => {
 
 .output-canvas {
   position: absolute;
+}
+
+.tooltip-content {
+  max-width: 300px;
+  padding: 4px;
+}
+
+.tooltip-content p {
+  margin-top: 0;
+}
+
+.tooltip-content ul {
+  margin-bottom: 0;
+  padding-left: 20px;
 }
 </style>
