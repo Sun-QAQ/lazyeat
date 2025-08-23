@@ -26,8 +26,8 @@ Lazyeat 吃饭时看剧/刷网页不想沾油手？
 
 |     平台     | 支持状态  |                              下载地址                              |
 |:----------:|:-----:|:--------------------------------------------------------------:|
-| 🪟 Windows | ✅ 支持  | [下载最新版本](https://github.com/maplelost/lazyeat/releases/latest) |
-|   🍎 Mac   | ✅ 支持  | [下载最新版本](https://github.com/maplelost/lazyeat/releases/latest) |
+| 🪟 Windows | ✅ 支持  | [下载最新版本](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) |
+|   🍎 Mac   | ✅ 支持  | [下载最新版本](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) |
 |  🐧 Linux  | ⏳ 开发中 |                               /                                |
 | 🤖 Android | ⏳ 开发中 |                               /                                |
 |   📱 iOS   | ⏳ 开发中 |                               /                                |
