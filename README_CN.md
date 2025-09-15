@@ -48,6 +48,9 @@ Lazyeat 是一款基于手势识别的非接触式控制工具。它支持摄像
 | ✅ 测试版 | ✅ 测试版 | 🛠️ 内测版 | 🛠️ 内测版 | 🛠️ 内测版 |
 | [下载](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) | [下载](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) | ❌         | ❌         | ❌         |
 
+#### Mac 无法安装？
+[解决Mac安装软件的“已损坏，无法打开。 您应该将它移到废纸篓”问题](https://zhuanlan.zhihu.com/p/135948430)
+
 > [UpgradeLink 提供应用程序升级和下载服务](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 
 ## 贡献

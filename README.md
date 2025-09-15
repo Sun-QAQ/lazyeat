@@ -48,6 +48,9 @@ Currently supports Mac, Windows, and Linux. Thanks to Tauri2's cross-platform ca
 | ✅ beta | ✅ beta | 🛠️ alpha | 🛠️ alpha | 🛠️ alpha |
 | [Download](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) | [Download](https://download.upgrade.toolsetlink.com/download?appKey=zY0JIMn9x6W7vCs4P1mtgQ) | ❌         | ❌         | ❌         |
 
+#### Mac can not install?
+[Solve the issue of "Damaged, cannot be opened. You should move it to the Trash" when installing software on Mac](https://zhuanlan.zhihu.com/p/135948430)
+
 > [UpgradeLink offers application upgrade and download services](http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html)
 
 ## Contribute
