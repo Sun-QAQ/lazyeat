@@ -1,19 +1,24 @@
+# Sponsors
+
+<div>
+    <a href="https://skywork.ai/p/oVSqHa" target="_blank">
+      <img alt="Skywork" src=".readme/skywork.png" />
+    </a>
+    <br/>
+    <a href="http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html" target="_blank">
+        <img alt="UpgradeLink" height="54"  src=".readme/UpgradeLink_1.png" />
+    </a>
+</div>
+
 # Lazyeat
 
 ![](https://img.shields.io/badge/free-pricing?logo=free&color=%20%23155EEF&label=pricing&labelColor=%20%23528bff)
 ![GitHub stars](https://img.shields.io/github/stars/lanxiuyun/lazyeat)
 ![](https://img.shields.io/github/issues-closed/lanxiuyun/lazyeat)
 
-<a href="https://hellogithub.com/repository/lanxiuyun/lazyeat" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=286c84fcdd9945569ce9b9cbde402adc&claim_uid=EHFzTtsO05vQrh3" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>  <a href="http://upgrade.toolsetlink.com/upgrade/example/tauri-example.html" target="_blank">
-  </a>
+<a href="https://hellogithub.com/repository/lanxiuyun/lazyeat" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=286c84fcdd9945569ce9b9cbde402adc&claim_uid=EHFzTtsO05vQrh3" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 <h3>English | <a href="README_CN.md">简体中文</a> </h3>
-
-## Sponsors
-
-<div>
-    <img height="54" alt="UpgradeLink"  src=".readme/UpgradeLink_1.png" />
-</div>
 
 ## Guide
 
