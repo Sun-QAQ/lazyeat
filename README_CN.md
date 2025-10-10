@@ -1,4 +1,4 @@
-# Lazyeat
+# Lazyeat（懒人手势）
 
 ![](https://img.shields.io/badge/free-pricing?logo=free&color=%20%23155EEF&label=pricing&labelColor=%20%23528bff)
 ![GitHub stars](https://img.shields.io/github/stars/lanxiuyun/lazyeat)
@@ -19,11 +19,11 @@
 
 💬 加入 [QQ群](https://github.com/lanxiuyun/lazyeat/discussions/86)
 
-Lazyeat 是一款基于手势识别的非接触式控制工具。它支持摄像头手势操作和语音输入，使用户在进食时可以方便地使用设备而不弄脏手。
+`懒人手势`是一款基于手势识别的非接触式控制工具。它支持摄像头手势操作和语音输入，使用户在进食时可以方便地使用设备而不弄脏手。
 
 ![img.png](.readme/guide.png)
 
-## 为什么选择 Lazyeat？
+## 为什么选择懒人手势？
 
 - 免手操作便利性：允许在不接触设备的情况下操作，非常适合手上有油脂的情况。
 - 直观的手势控制：简单的手势（如滑动、点击）可以轻松暂停视频、调整音量或导航，学习成本极低。
