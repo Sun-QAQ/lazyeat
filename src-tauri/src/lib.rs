@@ -43,6 +43,7 @@ pub fn run() {
         ))
         .plugin(tauri_plugin_shell::init())
         .plugin(tauri_plugin_opener::init())
+        .plugin(tauri_plugin_http::init())
         .setup(|app| {
             // 在应用启动时自动启动sidecar
             let app_handle = app.handle().clone();
