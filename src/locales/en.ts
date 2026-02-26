@@ -64,6 +64,8 @@ export default {
   "暂停/继续": "Pause/Resume",
   "单手张开1.5秒 暂停/继续 手势识别":
     "Open one hand for 1.5 seconds to pause/resume gesture recognition",
+  启用: "Enable",
+  关闭: "Disable",
 
   识别框x: "Recognition box x",
   识别框y: "Recognition box y",
