@@ -26,6 +26,7 @@ export default {
   开机自启动: "Auto Start",
   显示识别窗口: "Show Recognition Window",
   摄像头选择: "Camera Selection",
+  关闭时最小化到托盘: "Minimize to Tray on Close",
 
   手势操作指南: "Gesture Guide",
   光标控制: "Cursor Control",

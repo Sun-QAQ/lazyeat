@@ -45,11 +45,20 @@ onMounted(async () => {
     }
   }, 500);
 
-  // 关闭窗口时最小化到托盘
+  // 关闭窗口时：根据配置决定最小化到托盘或退出
   await getCurrentWindow().onCloseRequested(async (event) => {
-    event.preventDefault();
-    await saveWindowState();
-    await getCurrentWindow().hide();
+    if (app_store.config.minimize_to_tray) {
+      event.preventDefault();
+      await saveWindowState();
+      await getCurrentWindow().hide();
+    } else {
+      event.preventDefault();
+      await saveWindowState();
+      if (!is_dev) {
+        await pyApi.shutdown();
+      }
+      await exit(0);
+    }
   });
 
   // 托盘"退出"菜单：清理后真正退出
