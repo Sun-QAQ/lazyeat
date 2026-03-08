@@ -101,6 +101,28 @@ export class Detector {
   }
 
   /**
+   * 检查手部是否在识别框内
+   */
+  private isHandInBoundary(hand: HandInfo): boolean {
+    const app_store = use_app_store();
+    // 使用手掌中心（中指MCP关节，landmark index 9）作为参考点
+    const palmCenter = hand.landmarks[9];
+
+    // 转换为视频坐标（与 gesture_handler 相同的坐标变换，x 轴镜像）
+    const video_x = app_store.VIDEO_WIDTH - palmCenter.x * app_store.VIDEO_WIDTH;
+    const video_y = palmCenter.y * app_store.VIDEO_HEIGHT;
+
+    const { boundary_left, boundary_top, boundary_width, boundary_height } = app_store.config;
+
+    return (
+      video_x >= boundary_left &&
+      video_x <= boundary_left + boundary_width &&
+      video_y >= boundary_top &&
+      video_y <= boundary_top + boundary_height
+    );
+  }
+
+  /**
    * 从视频帧检测手部
    */
   async detect(video: HTMLVideoElement): Promise<DetectionResult> {
@@ -123,6 +145,11 @@ export class Detector {
 
         if (result.gestures.length > 0) {
           hand.categoryName = result.gestures[0][0].categoryName;
+        }
+
+        // 过滤掉不在识别框内的手
+        if (!this.isHandInBoundary(hand)) {
+          continue;
         }
 
         if (hand.handedness === "Left") {
